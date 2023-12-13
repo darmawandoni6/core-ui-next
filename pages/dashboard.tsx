@@ -1,4 +1,4 @@
-import React, { type ReactElement } from 'react'
+import type { ReactElement } from 'react'
 
 import DefaultLayout from '@layout/DefaultLayout'
 import Dashboard from '@views/dashboard/Dashboard'
