@@ -1,11 +1,11 @@
-import { type FunctionComponent, type ReactElement, memo } from 'react'
+import { type FunctionComponent, type ReactElement, ReactNode, memo } from 'react'
 
 import { cilCode, cilMediaPlay } from '@coreui/icons'
 import CIcon from '@coreui/icons-react'
 import { CNav, CNavItem, CNavLink, CTabContent, CTabPane } from '@coreui/react'
 
 type Props = {
-  children: ReactElement
+  children: ReactNode
   href: string
   tabContentClassName?: string
 }
