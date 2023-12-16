@@ -8,6 +8,12 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/darmawandoni6/core-ui-next"
+  },
+  "license": "MIT",
+  "author": "https://github.com/darmawandoni6",
   "dependencies": {
     "@coreui/chartjs": "^4.0.0-rc.0",
     "@coreui/coreui": "^5.0.0-rc.1",
